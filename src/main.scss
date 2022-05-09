@@ -1,0 +1,50 @@
+$dark: #231123;
+$primary: #2c497f;
+$secondary: #ef476f;
+$warning: #ffb30f;
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: #82204a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  background-color: $dark;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: contain;
+}
+
+.img-list {
+  width: 100%;
+  height: 20vw;
+  object-fit: contain;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+.btn-add:active {
+  background-color: #f6164a;
+}
+.drawing {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
